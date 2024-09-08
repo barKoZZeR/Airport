@@ -2,8 +2,6 @@ from PyQt5 import QtWidgets
 
 class AirportFilterView(QtWidgets.QWidget):
     def __init__(self):
-        """Класс AirportFilterView наследуется от QtWidgets.QWidget, в соответствии с чем
-        он может сожержать свои виджеты"""
         super().__init__()
 
         # Создаём заголовок окна программы
